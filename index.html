@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Ideal weight they said</title>
+        <link href="./style.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div class="background">
+            <h1 class="title">IDEAL WEIGHT CALCULATOR</h1>
+            <form>
+                <div class="col">
+                    <label for="yheight" type="text">Your Height</label>
+                    <input type="text" id="yheight" name="yourheight" placeholder="Your height in cm">
+                
+                    <label for="yweight" type="text">Your Weight</label>
+                    <input type="text" id="yweight" name="yourweight" placeholder="Your weight in kg">
+
+                    <label for="yage" type="text">Your Age</label>
+                    <input type="text" id="yage" name="yourage" placeholder="Your age">
+                
+                    <label for="gender">Gender</label>
+                    <select id="gender" name="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                
+                    <input type="submit" id="submit" value="Submit">
+                </div>
+            </form>
+            <div>
+                <table class="position">
+                    <tr>
+                        <th>Ideal Weight</th>
+                        <th>IBM</th>
+                        <th>Calorie/Day</th>
+                      </tr>
+                      <tr>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                      </tr>
+                </table>
+            </div>
+          </div>
+          <script src="script.js"></script>
+    </body>
+</html>
